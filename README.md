@@ -32,6 +32,45 @@ Aplikasi ini mendukung fitur **enkripsi, dekripsi, autentikasi pengguna**, dan *
 - Dukungan multi-user (jika dikembangkan lebih lanjut).
 
 ---
+## 🧩 Daftar Branch Fitur
+
+| Branch | Deskripsi |
+| :------------ | :----------------------------- |
+| **main** | Versi stabil aplikasi |
+| **fitur-auth** | Sistem login dan autentikasi |
+| **fitur-enkripsi** | Proses enkripsi data |
+| **fitur-dekripsi** | Proses dekripsi data |
+| **fitur-ui** | Desain tampilan GUI |
+| **fitur-utils** | Fungsi tambahan & konfigurasi |
+
+---
+
+## 👥 Anggota Kelompok
+- Irgi Fahreza  
+- Yusuf Febrianto  
+- Desti Listia Sari  
+- Fahrul Adi  
+- Septian Damar  
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+- **Python 3.11**  
+- **Tkinter (GUI)**  
+- **Cryptography (Enkripsi & Dekripsi)**  
+- **JSON (Penyimpanan Data)**  
+- **Git + GitHub (Kolaborasi Kode)**  
+
+---
+
+## 📜 Lisensi
+Proyek ini bersifat **open-source** dan dikembangkan untuk keperluan akademik.  
+Dapat digunakan untuk belajar atau dikembangkan lebih lanjut dengan mencantumkan kredit kepada tim pengembang.  
+
+---
+
+> 💬 **“VaultKey — Simpan Rahasia Anda dengan Aman.”**
+
 
 ## 🗂️ Struktur Proyek
 
@@ -43,13 +82,14 @@ Vaultkey_Python_Kelompok1/
 ├── decrypt_manager.py # Modul dekripsi data
 ├── ui_manager.py # Modul GUI aplikasi
 ├── utils.py # Fungsi tambahan (helper)
+│
 ├── data/
 │ └── vault_data.json # Penyimpanan terenkripsi (otomatis dibuat)
+│
 ├── README.md # Dokumentasi proyek
 └── requirements.txt # Daftar dependensi Python
 
-yaml
-Salin kode
+
 
 ---
 
@@ -69,39 +109,5 @@ pip install -r requirements.txt
 bash
 Salin kode
 python main.py
-🧩 Daftar Branch Fitur
-Branch	Deskripsi
-main	Versi stabil aplikasi
-fitur-auth	Sistem login dan autentikasi
-fitur-enkripsi	Proses enkripsi data
-fitur-dekripsi	Proses dekripsi data
-fitur-ui	Desain tampilan GUI
-fitur-utils	Fungsi tambahan & konfigurasi
 
-👥 Anggota Kelompok
-Irgi Fahreza
 
-Yusuf Febrianto
-
-Desti Listia Sari
-
-Fahrul Adi
-
-Septian Damar
-
-🛠️ Teknologi yang Digunakan
-Python 3.11
-
-Tkinter (GUI)
-
-Cryptography (Enkripsi & Dekripsi)
-
-JSON (Penyimpanan data)
-
-Git + GitHub (Kolaborasi kode)
-
-📜 Lisensi
-Proyek ini bersifat open-source dan dikembangkan untuk keperluan akademik.
-Dapat digunakan untuk belajar atau dikembangkan lebih lanjut dengan mencantumkan kredit kepada tim pengembang.
-
-💬 "VaultKey — Simpan Rahasia Anda dengan Aman."
